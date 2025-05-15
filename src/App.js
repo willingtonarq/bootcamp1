@@ -1,3 +1,8 @@
-export default function Square() {
-  return <button className="square">X</button>;
+import SelectDesdeLista from "./RequestPaises"
+import MostrarGif from "./RequestPaises"
+
+export default function App() {
+  return <div>
+    <SelectDesdeLista/>
+  </div>
 }
